@@ -43,7 +43,18 @@ To use this model for predicting plant diseases, follow these steps:
 
 ## Conclusion
 
-This project demonstrates the successful classification of plant diseases with a high accuracy of 96%. The trained model can be used for automated disease detection in plants, which can aid in early detection and prevention of crop diseases. Further improvements can be made by incorporating more diverse and extensive datasets, fine-tuning the model architecture, or exploring transfer learning techniques.
+This project demonstrates the successful classification of plant diseases with a high accuracy of 94.6%. The trained model can be used for automated disease detection in plants, which can aid in early detection and prevention of crop diseases. Further improvements can be made by incorporating more diverse and extensive datasets, fine-tuning the model architecture, or exploring transfer learning techniques.
+
+classification Report:
+              precision    recall  f1-score   support
+
+           0       0.91      0.96      0.93        50
+           1       0.94      0.92      0.93        50
+           2       1.00      0.96      0.98        50
+
+    accuracy                           0.95       150
+   macro avg       0.95      0.95      0.95       150
+weighted avg       0.95      0.95      0.95       150
 
 Feel free to contribute to this project by adding more labeled images, optimizing the model, or suggesting enhancements.
 
